@@ -40,19 +40,19 @@ In all the functions explained below, the examples use an event store named **th
 **This event store does not exist in DNIF by default**. However, it can be created/imported.
 
 
-#### get_domain_profile
+### get_domain_profile
 
 This function returns basic (summarized) data about products like registrant, server, registration etc. for a domain name.
 
-##### Input  
+#### Input  
 - Domain name
 
-##### Example  
+#### Example  
 ```
 _fetch $Domain from threatsample limit 1
 >>_lookup domaintools get_domain_profile $Domain
 ```
-##### Output
+#### Output
 
 Click [here](https://drive.google.com/file/d/1hMOy3tWqK4KU3BzRntgooCIJWlbWlATi/view?usp=sharing) to view the output of the above example.  
  
